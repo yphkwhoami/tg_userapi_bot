@@ -8,7 +8,8 @@ It's Work , but use it as your Risk :)
 2. Python 3.x
 3. Python package [Telethon](https://github.com/LonamiWebs/Telethon)
 4. Telegram User Account
-5. (optional) nodejs
+5. MySQL database
+6. (optional) nodejs
 
 
 ## Preparation 
