@@ -56,8 +56,12 @@ Edit setting in tg_config.py<br/>
 - Let {userbot} join the group that need to manage by ADMIN of group <br/>
 - Give {userbot} permissions in the group : "Delete message" and "Ban users" (go to : Group info > Edit > Administrators > )<br/>
 - {admin} send any message to {userbot}<br/>
-- {userbot} send command to himself (via Saved Message) : <br/>
-[_whitelist m n]   m = user id, n = group id , whitelist a new user {admin} to manage this group (script or pm2 service need restart)<br/>
+
+### Setup for each group
+- {userbot} send command to himself (via Saved Message) 
+- run [_users] and [_groups] via Saved message to get user id of {admin} and group id of group to be managed 
+- run [_whitelist m n]   m = user id, n = group id , whitelist a new user {admin} to manage this group (script or pm2 service need restart)<br/>
+
 
 ### Execute
 Run event.py as service using pm2 <br/>
