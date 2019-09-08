@@ -7,9 +7,11 @@ It's Work , but use it as your Risk :)
 1. Linux platform 
 2. Python 3.x
 3. Python package [Telethon](https://github.com/LonamiWebs/Telethon)
-4. Telegram User Account
-5. MySQL database
-6. (optional) nodejs
+4. Python package [pymysql](https://github.com/PyMySQL/PyMySQL)
+5. Python package [aiomysql](https://github.com/aio-libs/aiomysql)
+6. Telegram User Account
+7. MySQL database
+8. (optional) nodejs
 
 
 ## Preparation 
